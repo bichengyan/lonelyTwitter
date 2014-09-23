@@ -35,10 +35,11 @@
         android:id="@+id/clear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="changeView"
         android:text="@string/clear" />
 
     <Button
-        android:id="@+id/save"
+        android:id="@+id/countTweetsButton"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/save" />

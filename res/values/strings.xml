@@ -4,6 +4,12 @@
     <string name="hello">Joshua said:</string>
     <string name="app_name">LonelyTwitter</string>
     <string name="save">Save</string>
-    <string name="clear">Clear</string>
-    
+    <string name="clear">Change to Counting page</string>
+    <string name="title_activity_tweets_counter">TweetsCounter</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="count_tweets">Count Tweets</string>
+    <string name="tweets_num">Tweets Number</string>
+    <string name="clea"/>
+
 </resources>

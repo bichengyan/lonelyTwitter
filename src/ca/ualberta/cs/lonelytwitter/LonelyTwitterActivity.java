@@ -46,9 +46,9 @@ public class LonelyTwitterActivity extends Activity {
 
 			public void onClick(View v) {
 				setResult(RESULT_OK);
-				tweets_size = tweets.size();
 				String text = ""+bodyText.getText().toString()+" "+tweets_size+"";
 				tweets.add(new LonelyTweetModel(text));
+				tweets_size = tweets.size();
 				adapter.notifyDataSetChanged();
 				saveInFile();
 			}
